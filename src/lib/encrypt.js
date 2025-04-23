@@ -7,7 +7,6 @@ function encrypt(text) {
 }
 
 function compare(plainText, hash) {
-  console.log(plainText,hash)
   return bcryptjs.compare(plainText, hash);
 }
 
